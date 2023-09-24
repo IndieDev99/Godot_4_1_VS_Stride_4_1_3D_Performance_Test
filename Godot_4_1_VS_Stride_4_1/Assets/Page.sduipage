@@ -1,0 +1,35 @@
+!UIPageAsset
+Id: 8c520e36-8728-4eec-8c89-6a5bb65ebb0f
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! a8a78c93-71ab-47e7-8571-458ba72efc8b
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 7a1af997-6740-4334-985f-35f6ef091ec2
+                DependencyProperties: {}
+                BackgroundColor: {R: 255, G: 255, B: 255, A: 0}
+                Width: 330.0
+                Height: 86.0
+                HorizontalAlignment: Right
+                VerticalAlignment: Top
+                Margin: {Top: 27.0, Right: 81.0}
+                Name: myText
+                Text: 'Cubes: '
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 70.0
+                TextColor: {R: 255, G: 0, B: 0, A: 255}
+                TextAlignment: Center
+        -   UIElement: !Grid
+                Id: a8a78c93-71ab-47e7-8571-458ba72efc8b
+                DependencyProperties: {}
+                BackgroundColor: {R: 124, G: 122, B: 122, A: 0}
+                Margin: {}
+                Children:
+                    01e11e4757af3366aa343e3cfac16593: !TextBlock ref!! 7a1af997-6740-4334-985f-35f6ef091ec2
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}

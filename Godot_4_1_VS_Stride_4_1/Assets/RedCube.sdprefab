@@ -1,0 +1,56 @@
+!PrefabAsset
+Id: 23da56a7-d68f-4f1a-bff0-cc10ff30273f
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! dab898f6-9e1a-44b9-8523-01da790412cd
+    Parts:
+        -   Entity:
+                Id: dab898f6-9e1a-44b9-8523-01da790412cd
+                Name: RedCube
+                Components:
+                    097d7bf33b88e6b926677649e01f9407: !TransformComponent
+                        Id: f15de93d-d87e-49e1-9c0e-46f326da0541
+                        Position: {X: 0.0, Y: 4.2289824, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fd117b85560a303b7bc7ba1bbde85cb0: !ModelComponent
+                        Id: ff555a3a-379a-49cb-a015-4c640c64fd6a
+                        Model: fc163603-b2dc-459b-a322-90df04213770:Cube
+                        Materials: {}
+                    36d441f0943e26c923ca3d47a73561ec: !RigidbodyComponent
+                        Id: c3c1631e-10b5-42c4-8f4f-7baf5ed35c99
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            725023740e99203b995b21fc922477bb: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            fd9f8d57e0b1d01e821dfbdb02deeb39: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    ab0851e710cb8533a1900c0aaff0cd93: !Godot_4_1_VS_Stride_4_1.PrefabInstance,Godot_4_1_VS_Stride_4_1
+                        Id: b7d764f0-d9af-44fb-afc8-4b3990a8d324
+                        SourcePrefab: null
+                        Following: true
+                        InstanceTimeout: 3.0
+                        Key: Space
+                        TimeInterval: 0.0
